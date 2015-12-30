@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+/*шапка сайта*/
+* {
+padding: 0; margin: 0; border: 0 px; 
+}
+body {
+	
+}
+#headmain {  height: 81px; overflow:hidden; background-image:url(images/header3.png); background-repeat:repeat-x; 
+}
+#lefter { float:left; padding-bottom::32000px; margin-bottom:-32000px; background-image:url(images/header1.png); background-position:left; background-repeat:no-repeat;  margin-right: 244px; height: 81px; 
+	
+}
+#righter {  float:right; padding-bottom:32000px; margin-bottom:-32000px; height: 81px; 
+	
+}
+#table1 { width: 244px; border:0; 
+	
+}
+#table2 { border:0; 
+	
+}
+
+.h { font-size:16px; font-family:Tahoma, Geneva, sans-serif; font-weight:900;   padding: 5px 10px 0px 10px; }
+.com { font-size:12px; font-family:Tahoma, Geneva, sans-serif; font-weight: 700; font-style:italic;  padding: 0px 10px 0px 10px;}
+.logo { padding: 20px 20px 10px 20px; vertical-align: top;
+	}
+	/*блок контента*/
+.txt {font-size:12px; font-family:Tahoma, Geneva, sans-serif; font-weight:700;   padding: 10px 10px 0px 10px;}
+.txt1 {font-size:12px; font-family:Verdana, Geneva, sans-serif; font-weight:600;   padding: 10px 10px 0px 10px;}
+
+#content { clear:both; background-image:url(images/fon1.jpg); background-repeat: repeat;  background-color:#CC9; width:100%; 
+	
+}
+#menu td{ background-image:url(images/knopka.png); width: 100px; height: 25px;  	
+	
+	}
+#menu p{ font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; font-weight:bold; }
+#menu a{ text-decoration:underline;}
+#menu a:hover{ color:#666; text-decoration:none;}
+#sidebar1 a { text-decoration:underline;}
+#sidebar1 a:hover { text-decoration:none; color:#666;}
+#str1 {font-size:14px; color:#063; }
+#nostr1{font-size:12px; color:#000; }
+#str { font-size:16px; color:#FFF;
+	}
+#nostr { color:#000;
+	}	
+#text { min-height:700px; overflow:hidden;
+	
+	}
+#col1{ float:left; width:150px; /*background-color:#CF6;*/ min-height:700px; opacity: 1; padding: 10px 10px 10px 10px; }
+#col2{/* background-color:#336;*/ margin:0 150px 0 150px;  min-height:700px; opacity: 1;padding: 10px 10px 10px 10px;}
+#col3{ float:right; width: 150px; /*background-color:#999;*/ min-height:700px; opacity: 1;padding: 10px 10px 10px 10px;}
+#sidebar1{padding: 10px 10px 10px 10px; background-color:#FFF; opacity:0.7; filter: alpha(Opacity=70); /* Прозрачность в IE */ height:400px; }
+#sidebar2{padding: 10px 10px 10px 10px;background-color:#FFF; opacity:0.7; filter: alpha(Opacity=70); /* Прозрачность в IE */ height:400px;}
+#text11{padding: 10px 0px 10px 0px;background-color:#FFF; margin:0 20px 0 20px; opacity:0.7; filter: alpha(Opacity=70); /* Прозрачность в IE */; min-height: 20px; text-align:center;}
+#text22{padding: 10px 0px 10px 100px;background-color:#FFF;margin:10px 20px 0 20px; opacity:0.7; filter: alpha(Opacity=70); /* Прозрачность в IE */ min-height: 400px; text-align:left;  }
+#text22 a{text-decoration:underline;color:#000;font-size:14px; }
+#text22 a:hover{text-decoration:none; color:#666;font-size:14px; }
+#autor1 { height:286px; padding-top: 30px; }
+#autor1 img { width: 400px; height: 266px; float:left; padding: 10px 20px 10px 20px;}
+#autor1 p {font-size:12px; font-family:Verdana, Geneva, sans-serif; font-weight:600;   padding: 10px 10px 0px 10px;}
+#autor2 { height:286px; }
+#autor2 img { width: 400px; height: 266px; float:left; padding: 10px 20px 10px 20px;}
+#autor2 p {font-size:12px; font-family:Verdana, Geneva, sans-serif; font-weight:600;   padding: 10px 10px 0px 10px;}
+#autor3 { height:133px; }
+#autor3 img { width: 200px; height: 133px; float:left; }
+#autor3 p {font-size:12px; font-family:Verdana, Geneva, sans-serif; font-weight:600;   padding: 10px 10px 0px 10px;}
+#autor4 p {font-size:12px; font-family:Verdana, Geneva, sans-serif; font-weight:600;   padding: 10px 10px 0px 10px; clear:left;}
+
+
+
+
+
+#ill{ padding:20px 0 20px 0 ; border: 0px; width: 100%; text-align:center;
+	}
+#text33{padding: 10px 0px 10px 0px;background-color:#FFF;margin:10px 20px 0 20px; opacity:0.7; filter: alpha(Opacity=70); /* Прозрачность в IE */ min-height: 100px;}
+
+	/*подвал*/
+#footer { background-image:url(images/footer3.png); height: 83px; clear:both;
+	
+	}
+#footer p{ font-family:Tahoma, Geneva, sans-serif; font-size:12px; vertical-align:central;
+	}
+#autor { padding-top: 15px;
+	}
